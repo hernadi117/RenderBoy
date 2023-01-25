@@ -13,7 +13,7 @@ The internal engine of RenderBoy will do typical ray tracing, which includes:
 - Light-geometry intersection
 - Reflections (depth may be specified)
 
-RenderBoy works with typical dependency injection; this is true for the scene you provide him, and the shader chosen. The decoupling from the shader and ray tracer engine allows RenderBoy to use a wide variety of shaders, and you may write your own shaders that RenderBoy then can use. To write your own shaders, you must make sure to subclass from `PixelShader` properly.
+RenderBoy works with typical dependency injection; this is true for the scene you provide him, and the shader chosen. The decoupling from the shader and ray tracer engine allows RenderBoy to use a wide variety of shaders, and you may write your own shaders that RenderBoy then can use. To write your own shaders, you must make sure to inherit from `PixelShader` properly.
 
 # Documentation
 RenderBoy is backed up by a 3D Vector container `Vector3`:
